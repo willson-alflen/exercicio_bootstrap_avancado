@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ebac Guitar Shop</title>
+    <!-- bootstrap css cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- local css -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body>
+    <header id="header">
+        <nav class="navbar navbar-expand-md">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="/assets/images/shop-logo.png" alt="logotipo da loja">
+                    Ebac Guitar Shop
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                    aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav nav-pills text-center me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#inicio">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#produtos">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div data-bs-spy="scroll" data-bs-target="#header" data-bs-smooth-scroll="true">
+            <div class="container">
+                <section id="inicio">
+                    <div id="carousel" class="carousel slide carousel-fade mt-3" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="3000">
+                                <img src="https://images.pexels.com/photos/13751049/pexels-photo-13751049.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                                    alt="fachada da loja">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="https://cdn.pixabay.com/photo/2017/05/29/15/10/guitar-2353960_960_720.jpg"
+                                    alt="instrumentos pendurados na parede da loja">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="https://images.unsplash.com/photo-1472851294608-062f824d29cc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                                    alt="clientes dentro da loja olhando produtos">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </section>
+
+                <section id="sobre" class="pt-5">
+                    <div class="row mb-md-4">
+                        <div class="col-12">
+                            <h2 class="mb-4 text-center fw-bold">Sobre a loja</h2>
+                            <p class="mb-4 text-center px-md-5">
+                                Bem-vindo à nossa loja de guitarras! Somos apaixonados por música e estamos
+                                comprometidos em
+                                oferecer aos nossos clientes instrumentos e acessórios da mais alta qualidade.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="cards">
+                        <div class="card mb-3 mb-md-2 mb-lg-5">
+                            <div class="card-body item-sobre">
+                                <h4>Guitarras</h4>
+                                <p>
+                                    Em nossa loja, você encontrará uma ampla variedade de guitarras, desde acústicas até
+                                    elétricas, para músicos de todos os níveis. Seja você um iniciante ou um
+                                    profissional experiente, temos algo para você. Nós temos em estoque marcas de renome
+                                    como Fender, Gibson, Taylor e Martin, bem como uma variedade de marcas menos
+                                    conhecidas, mas igualmente impressionantes. Nossa equipe qualificada pode ajudá-lo a
+                                    encontrar a guitarra perfeita para o seu estilo e orçamento.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card mb-3 mb-md-2 mb-lg-5">
+                            <div class="card-body item-sobre">
+                                <h4>Acessórios</h4>
+                                <p>
+                                    Também oferecemos uma variedade de acessórios e equipamentos para aprimorar sua
+                                    experiência de tocar. Nossa seleção inclui cordas, palhetas, correias, afinadores,
+                                    amplificadores e pedais das melhores marcas, como Boss, Dunlop e Ernie Ball.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card mb-3 mb-lg-5">
+                            <div class="card-body item-sobre">
+                                <h4>Reparo e Manutenção</h4>
+                                <p>
+                                    Nosso compromisso com a satisfação do cliente não termina quando você sai da loja.
+                                    Oferecemos serviços de reparo e manutenção para guitarras, amplificadores e outros
+                                    equipamentos. Nossos técnicos experientes podem diagnosticar e consertar quaisquer
+                                    problemas com seu equipamento, desde ajustes simples até reparos mais complexos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-md-3">
+                        <div class="col-12">
+                            <p class="mb-4 text-center px-md-5">
+                                Somos dedicados a promover uma comunidade de músicos e amantes da música. Realizamos
+                                eventos como shows, workshops e jam sessions, onde você pode se conectar com outros
+                                músicos e aprender com profissionais experientes.
+                            </p>
+                            <p class="mb-4 text-center px-md-5">
+                                Em nossa loja, somos mais do que apenas uma loja de varejo; somos um lugar onde os
+                                amantes da música podem se reunir para compartilhar sua paixão pela música. Venha nos
+                                visitar hoje e experimente a alegria de tocar música!
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="produtos" class="pt-5">
+                    <h2 class="mb-4 text-center fw-bold">Confira nossa linha de pedais</h2>
+                    <div class="cards">
+                        <div class="card mb-4">
+                            <img src="/assets/images/distortion.png" alt="pedal de guitarra efeito distorção">
+                            <div class="card-body">
+                                <h4>Pedal de Distorção</h4>
+                                <p>Este é o Rectifier! Nossa versão do Mesa Boogie Dual Rectifier em uma caixinha.
+                                    Substituímos
+                                    as válvulas do pre amplificador do canal 3 do Dual Rectifier por transistores JFETs.
+                                    O
+                                    tone
+                                    stack da nossa versão é passivo assim como o valvulado, atua nas mesmas faixas de
+                                    frequência. Possui também um controle de presença para que fique ainda mais fácil a
+                                    timbragem do pedal, aumentando ou diminuindo a região de agudos/médio agudos do som.
+                                </p>
+                            </div>
+                            <div class="card-footer text-end">
+                                <span class="px-4 h5">R$ 299,90</span>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4">
+                            <img src="/assets/images/delay.png" alt="pedal de guitarra efeito delay">
+                            <div class="card-body">
+                                <h4>Pedal de Delay</h4>
+                                <p>O Delay And Looper é um pedal de delay incrivelmente versátil, definitivamente o mais
+                                    completo da sua categoria, em um formato compacto e no tamanho certo para o seu
+                                    Pedalboard.
+                                    Com 11 delays e um surpreendente Looper de 40 segundos, o Flashback está muito à
+                                    frente
+                                    dos
+                                    pedais de Delay disponíveis no mercado atualmente. Um dos sons de destaque do pedal
+                                    inclui o
+                                    original 2290, que ficou conhecido no som do guitarrista "The Edge" do U2.</p>
+                            </div>
+                            <div class="card-footer text-end">
+                                <span class="px-4 h5">R$ 299,90</span>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4">
+                            <img src="/assets/images/chorus.png" alt="pedal de guitarra efeito chorus">
+                            <div class="card-body">
+                                <h4>Pedal de Chorus</h4>
+                                <p>O pedal Chorus cobre uma ampla faixa de ajustes, pois contém filtros de corte de
+                                    freqüências
+                                    altas e baixas. Cria qualquer tipo de efeito de chorus, do natural e suave, até o
+                                    mais
+                                    espacial e penetrante efeito de chorus estéreo, muito popular na música “pop” atual.
+                                </p>
+                            </div>
+                            <div class="card-footer text-end">
+                                <span class="px-4 h5">R$ 299,90</span>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4">
+                            <img src="/assets/images/phaser.png" alt="pedal de guitarra efeito phase">
+                            <div class="card-body">
+                                <h4>Pedal de Phase</h4>
+                                <p>Multo modulações conta com 6 modos de modulação diferentes, são eles: Tremolo,
+                                    Chorus,
+                                    Flanger, Phaser, Filter e Vibrato. Cada modo foi definido e programado especialmente
+                                    para
+                                    entregar o máximo em qualidade e versatilidade em cada modulação. Além dos clássicos
+                                    controles “Rate” e “Depth” presentes em todas as modulações o Flow conta também com
+                                    o
+                                    controle “Wave” que recebe uma função diferente para cada opção de modulação.</p>
+                            </div>
+                            <div class="card-footer text-end">
+                                <span class="px-4 h5">R$ 299,90</span>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4">
+                            <img src="/assets/images/compressor.png" alt="pedal de guitarra efeito compressão">
+                            <div class="card-body">
+                                <h4>Pedal de Compressão</h4>
+                                <p>Um compressor de estúdio clássico num pedal do tamanho de um pedal padrão MXR. Possui
+                                    CHT™,
+                                    uma tecnologia de Headroom constante para o desempenho claro e limpo com “True
+                                    Bypass”.
+                                    Fácil de ajustar e com sutilezas para definir o nível de compressão.</p>
+                            </div>
+                            <div class="card-footer text-end">
+                                <span class="px-4 h5">R$ 299,90</span>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <section id="contato" class="pt-5">
+                    <div class="row px-2">
+                        <div class="col">
+                            <h3 class="text-center">Vamos coversar</h3>
+                            <p class="text-center mb-5">Podemos tirar as suas dúvidas ou simplesmente bater um papo.</p>
+                            <ul class="mb-5" style="list-style: none;">
+                                <li class="d-flex align-items-end mb-4">
+                                    <div>
+                                        <i class="fa-solid fa-location-dot"
+                                            style="font-size: 36px; width: 36px; margin-right: 15px;"></i>
+                                    </div>
+                                    <div>
+                                        <span>Av. Oeste Centro, 1900, Itá-SC</span>
+                                    </div>
+                                </li>
+
+                                <li class="d-flex align-items-end mb-4">
+                                    <div>
+                                        <i class="fa-solid fa-phone"
+                                            style="font-size: 36px; width: 36px; margin-right: 10px;"></i>
+                                    </div>
+                                    <div>
+                                        <span>+55 49 99999-9999</span>
+                                    </div>
+                                </li>
+
+                                <li class="d-flex align-items-end mb-4">
+                                    <div>
+                                        <i class="fa-solid fa-paper-plane"
+                                            style="font-size: 36px; width: 36px; margin-right: 10px; aspect-ratio: 3/2;"></i>
+                                    </div>
+                                    <div>
+                                        <span>ebacguitarshop@email.com</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="row pt-4 pt-md-0">
+                        <div class="col">
+                            <form action="#" class="needs-validation pt-4 rounded" novalidate>
+                                <h3 class="text-center mb-4">Escreva-nos</h3>
+                                <div class="form-content d-flex justify-content-center align-items-center">
+                                    <fieldset class="col-10">
+                                        <div class="d-flex align-items-center justify-content-center mb-3">
+                                            <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                                            <label for="name" class="sr-only">Nome</label>
+                                            <input type="name" name="name" id="name" class="form-control"
+                                                placeholder="Digite seu nome" required>
+                                        </div>
+
+                                        <div class="d-flex align-items-center justify-content-center mb-3">
+                                            <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                                            <label for="email" class="sr-only">Email</label>
+                                            <input type="email" name="email" id="email" class="form-control"
+                                                placeholder="Digite seu email" required>
+                                        </div>
+
+                                        <div class="d-flex align-items-center justify-content-center mb-4">
+                                            <i class="fas fa-phone fa-lg me-3 fa-fw"></i>
+                                            <label for="tel" class="sr-only">Telefone</label>
+                                            <input type="text" name="tel" id="tel" class="form-control"
+                                                placeholder="(99) 99999-9999"
+                                                pattern="\(?[0-9]{2,3}\)?\s?[0-9]{4,5}-?[0-9]{4}" required>
+                                        </div>
+
+                                        <div class="d-flex align-items-center justify-content-center mb-4">
+                                            <i class="fa-solid fa-keyboard fa-lg me-3 fa-fw"></i>
+                                            <label for="textarea" class="sr-only">Mensagem</label>
+                                            <textarea id="textarea" name="textarea" class="form-control"
+                                                placeholder="Deixe sua mensagem..." required
+                                                style="height: 200px"></textarea>
+                                        </div>
+
+                                        <div class="form-check form-switch mb-3">
+                                            <input class="form-check-input" type="checkbox" role="switch"
+                                                id="switchCheck" checked>
+                                            <label class="form-check-label" for="switchCheck">Lembre-se de mim</label>
+                                        </div>
+
+                                        <div class="text-center mb-5 mt-5">
+                                            <button id="btnSubmit"
+                                                class="col-6 text-center btn btn-lg btn-primary btn-block fw-bold"
+                                                type="submit">Entrar</button>
+                                        </div>
+                                    </fieldset>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer id="footer" class="container my-5 pt-5 border-top">
+        <div class="container">
+            <div class="row d-md-flex justify-content-md-center align-items-md-center">
+                <div class="col-md-5 d-flex align-items-center justify-content-center mb-xm-4" style="height: 63px;">
+                    <a href="#" class="text-decoration-none">
+                        <img src="/assets/images/shop-logo.png" alt="logotipo da loja">
+                    </a>
+                    <span class="text-muted">&copy; 2023 Ebac Guitar Shop</span>
+                </div>
+
+                <ul class="nav col-md-5 align-items-center justify-content-center list-unstyled d-flex"
+                    style="height: 63px;">
+                    <li>
+                        <a class="text-muted" href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li class="mx-5">
+                        <a class="text-muted" href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a class="text-muted" href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container"  style="margin: 100px auto;">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center attribution">
+                        Challenge by <a
+                            href="https://static.lms.ebaconline.com.br/content-files/597dcc07-b1d9-4da3-a7e2-2a1dcfeed30e/original.pdf"
+                            target="_blank"><strong>Ebac</strong></a>.
+                        Coded by <a href="https://www.linkedin.com/in/willson-alflen/" target="_blank"><strong>Willson
+                                Alflen</strong></a>.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- bootstrap js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!-- sweet alert cdn -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- local js -->
+    <script src="/assets/js/main.js"></script>
+</body>
+
+</html>
